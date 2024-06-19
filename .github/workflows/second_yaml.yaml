@@ -18,3 +18,8 @@ jobs:
           run: |
             ls
             echo Hello There!
+
+        - name: Checkout private repo remotely
+          uses: actions/checkout@v2
+          with:
+             repository: gite5/calculatore5
