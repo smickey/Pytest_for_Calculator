@@ -17,11 +17,5 @@ jobs:
         - name: Print and list out content
           with:
              repository: Gite5/calculatore5
-             #path: <folder of choice>
-
-        - name: Show hidden files
-          run: |
-             ls
-
              
 
