@@ -1,4 +1,4 @@
-name: Pulling from other people's repos
+name: Simple Start Up
 on:
     push:
         branches: [main]
@@ -11,11 +11,10 @@ jobs:
 
         steps:
 
-        - name: Grabbing repository
+        - name: checkout my codes
           uses: actions/checkout@v2
 
         - name: Print and list out content
-          with:
-             repository: Gite5/calculatore5
-             
-
+          run: |
+            ls
+            echo Hello There!
