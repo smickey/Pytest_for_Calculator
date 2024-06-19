@@ -1,6 +1,6 @@
 import pytest
-import Calculator
-from Calculator import *
+import calculator
+from calculator import *
 from pytest import approx
 
 # test adding two positive numbers:
