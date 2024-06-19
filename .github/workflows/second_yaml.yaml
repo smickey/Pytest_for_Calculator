@@ -11,10 +11,14 @@ jobs:
 
         steps:
 
-        - name: checkout my codes
+        - name: Grabbing repository
           uses: actions/checkout@v2
 
         - name: Print and list out content
+          with:
+             repository: Gite5/calculatore5
+        - name: Show
           run: |
-            ls
-            echo Hello There!
+              ls
+             
+
